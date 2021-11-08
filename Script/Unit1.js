@@ -9,9 +9,9 @@
   Log.Message("selected value of product is: " + productName.SelectedItem);
   Log.Message("element count of product is: " + productName.wItemCount);
   
-  let card = Sys.Process("Orders").WinFormsObject("OrderForm").WinFormsObject("Group").WinFormsObject("Visa");
+  let myCard = Sys.Process("Orders").WinFormsObject("OrderForm").WinFormsObject("Group").WinFormsObject("Visa");
   
-  Log.Message("checked or unchecked card visa: " + card.Checked);
+  Log.Message("checked or unchecked card visa: " + myCard.Checked);
   
   let name = Sys.Process("Orders").WinFormsObject("OrderForm").WinFormsObject("Group").WinFormsObject("Customer");
   

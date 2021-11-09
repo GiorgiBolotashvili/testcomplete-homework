@@ -1,7 +1,13 @@
 ﻿function Test1()
 {
+  TestedApps.Orders.Run();  
+  
   let orders = Aliases.Orders;
+  orders.MainForm.MainMenu.Click("File|Open...");
+  orders.dlgOpen.OpenFile("D:\\Coding\\Test Automation\\testcomplete-homework\\Untitled.tbl", "Table (*.tbl)");
+  
   orders.MainForm.OrdersView.DblClickItem("Giorgi", "MyMoney");
+  
   let orderForm = orders.OrderForm;
 
   
@@ -18,6 +24,9 @@
   Log.Message("Customer name value is: " + name.wText);
   
   orderForm.WinFormsObject("ButtonOK").ClickButton();
-  
+
+  let mainForm = orders.MainForm;
+  mainForm.Close();
+  orders.dlgConfirmation.btnNo.ClickButton();
   
 }

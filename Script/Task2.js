@@ -2,6 +2,11 @@
 {
   TestedApps.Orders.Run();  
     let orders = Aliases.Orders;
+    
+    //open file
+    openFile(orders);
+    
+    //add new order
     addOrder(orders);
     //Update default parents element name (Group to ElementsGroup)
     let group = orders.OrderForm.ElementsGroup;
@@ -13,9 +18,7 @@
     orders.OrderForm.ButtonOK.ClickButton();
     
     //check order all properties and row count 
-    let table = Tables.OrdersView; 
-    
-    let rowCount = table.RowCount;
+    let table = Tables.OrdersView2;
     
     checkAllProperties(table);
     checkRowCount(table);
@@ -24,7 +27,7 @@
     deleteRow(orders);
     
     //check row count
-    checkRowCount(Tables.OrdersView.RowCount);
+    checkRowCount(Tables.OrdersView3);
     
     orders.MainForm.Close();
     orders.dlgConfirmation.btnNo.ClickButton();
@@ -80,4 +83,10 @@ function deleteRow(orders)
 function checkRowCount(table)
 {
   Log.Message("Row Count is: " + table.RowCount);
+}
+
+function openFile(orders)
+{
+  orders.MainForm.MainMenu.Click("File|Open...");
+  orders.dlgOpen.OpenFile("D:\\Coding\\Test Automation\\testcomplete-homework\\Untitled.tbl", "Table (*.tbl)");
 }

@@ -278,6 +278,31 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="dlgSaveAs" Key="{D15434A5-5BDA-4FE8-A782-42F433646D4C}">
+								<Image FileName="825495702" Left="0" Top="0" Right="1169" Bottom="649" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnCancel" Key="{41A6A58C-945E-4F21-AEBA-38E05C085270}">
+										<Image FileName="924853908" Left="1056" Top="603" Right="1144" Bottom="629" />
+										<TypeInfo Item0="{B628A22B-711D-49CD-B1EB-FCEAFE377ED9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Cancel" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{46CDFE16-5F4C-41C9-809D-E2079DBBED15}">
@@ -495,6 +520,9 @@
 			<Child Name="dlgConfirmation" Owner="{734081AF-752D-4C02-87CC-7CF4CB0A66E6}">
 				<Child Name="btnNo" Owner="{6E84B75A-FBD6-4620-B85C-1F65915C9240}" />
 				<Child Name="btnYes" Owner="{B178E43A-7662-43A2-BA6E-D0B299CC9C90}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{D15434A5-5BDA-4FE8-A782-42F433646D4C}">
+				<Child Name="btnCancel" Owner="{41A6A58C-945E-4F21-AEBA-38E05C085270}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{46CDFE16-5F4C-41C9-809D-E2079DBBED15}">

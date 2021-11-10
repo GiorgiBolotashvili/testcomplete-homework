@@ -2,5 +2,7 @@
 <Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="15.0">
 	<children>
 		<child name="OrdersView" key="{22F47BC1-5745-4710-A56C-D23B60458924}" path="OrdersView.tcTbl" />
+		<child name="OrdersView2" key="{2AFED8E8-E16C-4184-B5DC-2D5889C97615}" path="OrdersView2.tcTbl" />
+		<child name="OrdersView3" key="{CF58426E-6855-4FC9-973F-F0BF812DA408}" path="OrdersView3.tcTbl" />
 	</children>
 </Root>

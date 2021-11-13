@@ -10,7 +10,22 @@
 	<testItems key="{EDDB36AC-1BD5-4923-A1A7-E51F363B472C}" version="14">
 		<children />
 	</testItems>
-	<variables key="{97390DAE-7D9B-4F45-8B25-0A8B68437DF0}" />
+	<variables key="{97390DAE-7D9B-4F45-8B25-0A8B68437DF0}">
+		<data Version="4">
+			<Items>
+				<Variable Name="ordersTableSQL" Type="DB Table" Local="False">
+					<DefValue Kind="{E41F84FB-BBB7-46FA-9587-43A7135BCA8D}">
+						<ConnectionInfo ConnectionString="Provider=SQLOLEDB.1;Persist Security Info=False;User ID=TestAutomation;Initial Catalog=OrdersDT;Data Source=DESKTOP-IBRRGAO\SQLEXPRESS" Login="TestAutomation" Psw="A0B0553C2BCA0066EA91C36AA5E9F0E7C1AE6A800FBAE529B7EAFAF4FE94C8B17A38A4DF3B7B06D0FA5A" Table="orders" Schema="dbo" />
+					</DefValue>
+				</Variable>
+				<Variable Name="ordersTableExcel" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="C:\Users\gio_b\OneDrive\Documents\Orders.xlsx" Table="Sheet1$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{6473AB52-6E89-45DF-BA42-7A32929C6CBC}">
 		<settingsVersion value="15.0" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

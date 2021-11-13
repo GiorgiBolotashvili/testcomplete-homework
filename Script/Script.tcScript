@@ -3,5 +3,6 @@
 	<children>
 		<child name="Unit1" key="{32EB6C0A-8EAF-4950-AC9F-FDBF5CAB0402}" path="Unit1.js" />
 		<child name="Task2" key="{44F2C332-65AE-459F-910D-2EBF71CE0601}" path="Task2.js" />
+		<child name="Unit_DDT_" key="{6C3A042E-FAEB-4795-85F8-66627102B166}" path="Unit_DDT_.js" />
 	</children>
 </Root>

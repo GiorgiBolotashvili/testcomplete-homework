@@ -1,6 +1,6 @@
 ﻿function Test1()
 {
-  TestedApps.Orders.Run();  
+   TestedApps.Orders.Run();  
     let orders = Aliases.Orders;
     
     //open file
@@ -90,3 +90,4 @@ function openFile(orders)
   orders.MainForm.MainMenu.Click("File|Open...");
   orders.dlgOpen.OpenFile("D:\\Coding\\Test Automation\\testcomplete-homework\\Untitled.tbl", "Table (*.tbl)");
 }
+

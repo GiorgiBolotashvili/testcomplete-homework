@@ -217,6 +217,15 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="ExpDate" Key="{6175DC45-149B-482F-A911-B8F0F1A3E6B9}">
+												<Image FileName="-1614838178" Left="115" Top="402" Right="243" Bottom="422" />
+												<TypeInfo Item0="{5B60D38C-E00E-4815-A486-D96C4166CBAF}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="ExpDate" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="ButtonOK" Key="{B2BCB944-DA7D-4F66-845E-1F3E43D054AF}">
@@ -225,6 +234,15 @@
 										<Properties>
 											<Property Name="WinFormsControlName">
 												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="ButtonCancel" Key="{F93A29ED-AABD-4B86-B9B1-77FD675F87C1}">
+										<Image FileName="-1596743385" Left="403" Top="442" Right="475" Bottom="466" />
+										<TypeInfo Item0="{B628A22B-711D-49CD-B1EB-FCEAFE377ED9}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonCancel" />
 											</Property>
 										</Properties>
 									</Child>
@@ -359,128 +377,6 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="browser" Key="{E773FDFE-E350-416A-9C13-15E116C49E64}">
-						<Properties>
-							<Property Name="ObjectType">
-								<Value Value="Browser" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="pageGoogleTranslate" Key="{F06B3FF9-BF8E-497B-839C-53335E5FE976}">
-								<Image FileName="-294483089" Left="0" Top="103" Right="1920" Bottom="1040" />
-								<Properties>
-									<Property Name="ObjectType">
-										<Value Value="Page" />
-									</Property>
-									<Property Name="URL">
-										<Value Value="https://translate.google.com/*" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="panelTranslationTypes" Key="{328EDA77-4D73-41D6-8E11-DD2DEE4A29FE}" ExtendedFind="True">
-										<Image FileName="-294483089" Left="0" Top="103" Right="1903" Bottom="1053" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value Value="Panel" />
-											</Property>
-											<Property Name="ObjectIdentifier">
-												<Value Value="2" Type="0" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="panelTranslationTypes" Key="{98B4E24F-8BC4-430B-81F0-796ED9741FA9}" ExtendedFind="True">
-												<Image FileName="-294483089" Left="0" Top="167" Right="1903" Bottom="1053" />
-												<Properties>
-													<Property Name="ObjectType">
-														<Value Value="Panel" />
-													</Property>
-													<Property Name="ObjectIdentifier">
-														<Value Value="1" Type="0" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="panelTextTranslation" Key="{F97EB889-4468-4CB9-9442-F8006B10CC2E}">
-														<Image FileName="-294483089" Left="312" Top="235" Right="1592" Bottom="812" />
-														<Properties>
-															<Property Name="ObjectType">
-																<Value Value="Panel" />
-															</Property>
-															<Property Name="ObjectIdentifier">
-																<Value Value="1" Type="0" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="panelDetectLanguage" Key="{4C20E599-FD27-407D-A071-06FF8571AB12}">
-																<Image FileName="-294483089" Left="312" Top="235" Right="1592" Bottom="812" />
-																<Properties>
-																	<Property Name="ObjectType">
-																		<Value Value="Panel" />
-																	</Property>
-																	<Property Name="ObjectIdentifier">
-																		<Value Value="0" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="panelSourceText" Key="{71BA7099-681E-42DF-8B17-FF090A7E6C11}">
-																		<Image FileName="-294483089" Left="312" Top="284" Right="1592" Bottom="812" />
-																		<Properties>
-																			<Property Name="ObjectType">
-																				<Value Value="Panel" />
-																			</Property>
-																			<Property Name="ObjectIdentifier">
-																				<Value Value="1" Type="0" />
-																			</Property>
-																		</Properties>
-																		<Children>
-																			<Child Name="panelSourceText" Key="{9EFC2120-F0C6-442F-9FAA-A1107228C188}">
-																				<Image FileName="-294483089" Left="312" Top="284" Right="1592" Bottom="812" />
-																				<Properties>
-																					<Property Name="ObjectType">
-																						<Value Value="Panel" />
-																					</Property>
-																					<Property Name="ObjectIdentifier">
-																						<Value Value="1" Type="0" />
-																					</Property>
-																				</Properties>
-																				<Children>
-																					<Child Name="panel" Key="{AB47B26C-4F2F-47AC-B4B9-D6F3BB342AF2}" ExtendedFind="True">
-																						<Image FileName="-294483089" Left="312" Top="284" Right="952" Bottom="576" />
-																						<Properties>
-																							<Property Name="ObjectType">
-																								<Value Value="Panel" />
-																							</Property>
-																							<Property Name="ObjectIdentifier">
-																								<Value Value="0" Type="0" />
-																							</Property>
-																						</Properties>
-																						<Children>
-																							<Child Name="textareaSourceText" Key="{8EE41DE5-2AFE-46D1-BA92-DF8DE4C14617}">
-																								<Image FileName="1704196445" Left="336" Top="304" Right="894" Bottom="556" />
-																								<TypeInfo Item0="{BDF22D21-77C8-4E4A-995B-76C7ED1B1B2D}" />
-																								<Properties>
-																									<Property Name="ObjectType">
-																										<Value Value="Textarea" />
-																									</Property>
-																								</Properties>
-																							</Child>
-																						</Children>
-																					</Child>
-																				</Children>
-																			</Child>
-																		</Children>
-																	</Child>
-																</Children>
-															</Child>
-														</Children>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -513,8 +409,10 @@
 						<Child Name="Total" Owner="{433491BA-9A8B-41D6-8F1C-6C3FCC4F7574}" />
 					</Child>
 					<Child Name="Date" Owner="{782FAF2F-10B2-4486-AF76-D8A2F0F2AFB0}" />
+					<Child Name="ExpDate" Owner="{6175DC45-149B-482F-A911-B8F0F1A3E6B9}" />
 				</Child>
 				<Child Name="ButtonOK" Owner="{B2BCB944-DA7D-4F66-845E-1F3E43D054AF}" />
+				<Child Name="ButtonCancel" Owner="{F93A29ED-AABD-4B86-B9B1-77FD675F87C1}" />
 			</Child>
 			<Child Name="dlgOpen" Owner="{65591763-8B11-4A67-A52A-4903342E4962}" />
 			<Child Name="dlgConfirmation" Owner="{734081AF-752D-4C02-87CC-7CF4CB0A66E6}">
@@ -523,20 +421,6 @@
 			</Child>
 			<Child Name="dlgSaveAs" Owner="{D15434A5-5BDA-4FE8-A782-42F433646D4C}">
 				<Child Name="btnCancel" Owner="{41A6A58C-945E-4F21-AEBA-38E05C085270}" />
-			</Child>
-		</Child>
-		<Child Name="explorer" Owner="{46CDFE16-5F4C-41C9-809D-E2079DBBED15}">
-			<Child Name="wndShell_TrayWnd" Owner="{CB5D0345-FC66-4545-A01C-DE5F6AAFE317}">
-				<Child Name="ReBarWindow32" Owner="{E1EA196E-5C75-44BA-80D5-2761D9A6D0F2}">
-					<Child Name="MSTaskSwWClass" Owner="{0443A595-40F0-4281-BE88-AA64F0AA110C}">
-						<Child Name="MSTaskListWClass" Owner="{821C6E92-D411-45ED-89F4-111D0436F797}" />
-					</Child>
-				</Child>
-			</Child>
-		</Child>
-		<Child Name="browser" Owner="{E773FDFE-E350-416A-9C13-15E116C49E64}">
-			<Child Name="pageGoogleTranslate" Owner="{F06B3FF9-BF8E-497B-839C-53335E5FE976}">
-				<Child Name="textareaSourceText" Owner="{8EE41DE5-2AFE-46D1-BA92-DF8DE4C14617}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
